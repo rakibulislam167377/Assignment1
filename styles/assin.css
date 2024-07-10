@@ -1,0 +1,23 @@
+.btn-primary{
+   color: white;
+   background-color: black;
+   height: 65px;
+   width: 244px;
+   border-radius: 8px;
+}
+.banner{
+    text-align: center;
+    background-image: url("../B10A1-Challenge-Begins-main/images/Hero-bg.png");
+    margin: 221px;
+}
+.banner-des{
+    height: 52px;
+    width: 852px;
+    color: #0D1321;
+    text-align:center;
+    
+}
+.img-dep{
+    height: 240px;
+    width: 240.28px;
+}
