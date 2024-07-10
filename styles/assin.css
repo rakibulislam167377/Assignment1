@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* inter font link */
+
 
 * {
     margin: 0;
@@ -16,9 +16,7 @@ body {
     margin: auto;
 }
 
-/* basic css */
 
-/* navbar start */
 #header .navbar {
     width: 1140px;
     height: 131px;
@@ -61,13 +59,11 @@ body {
     text-decoration: none;
 }
 
-/* navbar end */
-/* slide start */
 
 #header .slider {
     width: 100%;
     height: 652px;
-    background: url(../assets/Hero-bg.png);
+    background: url(../B10A1-Challenge-Begins-main/images/Hero-bg.png);
     margin: 0px auto;
     display: flex;
     flex-direction: column;
@@ -132,8 +128,7 @@ body {
 
 }
 
-/* slide end */
-/* FAQ-section start */
+
 #faq-section .faq-container {
     width: 1140px;
     height: 1393px;
@@ -233,3 +228,387 @@ body {
     margin-bottom: 32px;
 
 }
+#faq-section .faq-main-content .text button {
+    width: 171px;
+    height: 47px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: white;
+}
+
+#faq-section .faq-main-content .text button a {
+    color: rgb(13, 19, 33);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+
+#inspiration {
+    margin: 74px auto;
+    height: 775px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#inspiration .header {
+    text-align: center;
+    padding: 48px;
+}
+
+#inspiration .header h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#inspiration .header p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+#inspiration .video {
+    width: 1140px;
+    height: 614px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#inspiration .video iframe {
+
+    width: 1076px;
+    height: 550px;
+    margin: auto;
+    border-radius: 16px;
+
+}
+
+
+#target .target-section {
+    margin: 74px auto;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#target .target-section .header {
+    text-align: center;
+    margin: 48px;
+}
+
+#target .target-section .header h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#target .target-section .header p {
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#target .target-section .target-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+#target .target-item .item-section {
+    border-radius: 16px;
+    padding: 40px;
+}
+
+#target .target-section .html-section {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+#target .target-section .css-section {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+#target .target-section .js-section {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+#target .target-item .item-section img {
+    margin-bottom: 24px;
+}
+
+#target .target-item .item-section h1 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+#target .target-item .item-section p {
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+
+
+}
+
+
+#target .target-item .item-section button {
+    background: none;
+    border: none;
+}
+
+#target .target-item .item-section button a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+
+#next-target .next-target-content {
+    height: 866px;
+    margin: 74px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 74px;
+}
+
+#next-target .next-target-content .header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+#next-target .next-target-content .header h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#next-target .next-target-content .header p {
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#next-target .next-target-content .next-target-content-item {
+    height: 219px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    margin-bottom: 24px;
+}
+
+#next-target .next-target-content .next-target-content-item img {
+    margin-right: 24px;
+}
+
+#next-target .next-target-content .next-target-content-item h1 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+#next-target .next-target-content .next-target-content-item p {
+    color: rgb(13, 19, 33);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 24px;
+
+}
+
+#next-target .next-target-content .next-target-content-item button {
+    background: none;
+    border: none;
+}
+
+#next-target .next-target-content .next-target-content-item button a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+
+#sub-footer .footer-item {
+    width: 1140px;
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 74px auto;
+    border-radius: 16px;
+    background: url(../B10A1-Challenge-Begins-main/images/handshake.jpg), rgb(93, 93, 93);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+
+}
+
+#sub-footer .footer-item .header h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#sub-footer .footer-item .header p {
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#sub-footer .footer-item .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sub-footer .footer-item .form input {
+    width: 548px;
+    padding: 19px 19px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-right: 16px;
+}
+
+
+#sub-footer .footer-item .form button {
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+#sub-footer .footer-item .form a {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+#footer-section {
+    width: 100%;
+    margin: auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+#footer-section .footer-content .text {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#footer-section .footer-content {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-section .footer-content a {
+    margin-left: 12px;
+}
+
+#footer-section .footer-content a img:hover {
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+}
+
+#footer-section .footer-content a img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 2px rgb(155, 155, 155));
+}
+
